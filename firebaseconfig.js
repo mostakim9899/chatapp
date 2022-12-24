@@ -12,13 +12,19 @@ console.log(process.env.MESSAGING_SENDER_ID);
 console.log(process.env.APP_ID);
 
 // Your web app's Firebase configuration
+
+
+
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: process.env.API_KEY,
-  authDomain: process.env.AUTH_DOMAIN,
-  projectId: process.env.PROJECT_ID,
-  storageBucket: process.env.STORAGE_BUCKET,
-  messagingSenderId: process.env.MESSAGING_SENDER_ID,
-  appId: process.env.APP_ID,
+  apiKey: "AIzaSyD-6wssRcG3kABjTIxE4HFA06NxC3Jm4uc",
+  authDomain: "m-ahammed.firebaseapp.com",
+  databaseURL: "https://m-ahammed-default-rtdb.firebaseio.com",
+  projectId: "m-ahammed",
+  storageBucket: "m-ahammed.appspot.com",
+  messagingSenderId: "362144885917",
+  appId: "1:362144885917:web:aedb077d78c5a99e613874",
+  measurementId: "G-9PYT738ZM2"
 };
 
 // Initialize Firebase
