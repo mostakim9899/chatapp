@@ -16,16 +16,7 @@ console.log(process.env.APP_ID);
 
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyD-6wssRcG3kABjTIxE4HFA06NxC3Jm4uc",
-  authDomain: "m-ahammed.firebaseapp.com",
-  databaseURL: "https://m-ahammed-default-rtdb.firebaseio.com",
-  projectId: "m-ahammed",
-  storageBucket: "m-ahammed.appspot.com",
-  messagingSenderId: "362144885917",
-  appId: "1:362144885917:web:aedb077d78c5a99e613874",
-  measurementId: "G-9PYT738ZM2"
-};
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
